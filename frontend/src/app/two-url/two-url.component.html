@@ -1,0 +1,40 @@
+<div class="container">
+
+    <div style="margin-top: 20px;">
+        <mat-form-field style="margin-right: 10px; width: 300px; height: 40px;" appearance="outline">
+            <mat-label>URL</mat-label>
+            <input [(ngModel)]="link1" matInput placeholder="Buraya URL girin...">
+        </mat-form-field>
+        <mat-form-field style="margin-right: 10px; width: 300px; height: 40px;" appearance="outline">
+            <mat-label>URL</mat-label>
+            <input [(ngModel)]="link2" matInput placeholder="Buraya URL girin...">
+        </mat-form-field>
+        <button style="height: 40px; margin-top: 0;" (click)="getWikipediaInfo()" mat-raised-button color="primary">Ara</button>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <mat-spinner *ngIf="isLoading"></mat-spinner>
+    </div>
+
+    <div>
+        <div *ngFor="let x of frequency1">
+            <span style="background:lightblue;font-family:Courier New"> frequency1: {{x.word}} : {{x.count}} </span>
+        </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div>
+        <div *ngFor="let x of frequency2">
+            <span style="background:#f5b57f;font-family:Courier New"> frequency2: {{x.word}} : {{x.count}} </span>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--
+    const object = { a: 1, b: 2, c: 3 };
+    for (const property in object) {
+    console.log(`${property}: ${object[property]}`);
+    }
+-->
