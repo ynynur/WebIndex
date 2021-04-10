@@ -5,6 +5,10 @@ Proje sayesinde web indeksleme yöntemleri hakkında bilgi edinilmesini ve web t
 Arama motorlarına baktığımız da bir arama alanı vardır ve bu alana bir anahtar kelime girildikten sonra bu anahtar kelimenin varolan içeriklerle anlamsal ilişkisine göre en yakın içeriğe sahip web siteleri listelenir.
 Projede anahtar kelime yerine bir URL girilmesi ve referans gösterilen URL üzerinden bir takım işlemler gerçekleştirilmesi amaçlanmıştır.
 
+Projede ki isterler doğrultusunda backend ve frontend uygulamaları geliştirildi.
+- Frontend http://web.ucazuga.com 
+- Backend  http://nur.ucazuga.com 
+
 ###  Backend
 Web indexleme projesinde,
 Backend tarafında; (http://localhost:3000)
