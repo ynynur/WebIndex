@@ -1,23 +1,23 @@
 ## WebIndex
-Web indexleme projesinin temel amacı verilen bir URL’deki web sayfa içeriğine göre diğer birden fazla web sayfasını benzerlik bakımından indeksleyip sıralayan web tabanlı bir uygulama geliştirmektir. 
-Proje sayesinde web indeksleme yöntemleri hakkında bilgi edinilmesini ve web tabanlı uygulama yazma becerisinin geliştirilmesi amaçlanmaktadır. Bu proje IntelliJIDEA üzerinde geliştirilmiştir.
+The main purpose of the web indexing project is to develop a web-based application that indexes and ranks multiple other web pages in terms of similarity according to the web page content at a given URL.
+With the project, it is aimed to gain knowledge about web indexing methods and develop web-based application writing skills. This project was developed on IntelliJIDEA.
 
-Arama motorlarına baktığımız da bir arama alanı vardır ve bu alana bir anahtar kelime girildikten sonra bu anahtar kelimenin varolan içeriklerle anlamsal ilişkisine göre en yakın içeriğe sahip web siteleri listelenir.
-Projede anahtar kelime yerine bir URL girilmesi ve referans gösterilen URL üzerinden bir takım işlemler gerçekleştirilmesi amaçlanmıştır.
+When we look at search engines, there is a search field and after a keyword is entered in this field, the websites with the closest content are listed according to the semantic relationship of this keyword with the existing content.
+In the project, it is aimed to enter a URL instead of a keyword and to perform some actions on the referenced URL.
 
-Projede ki isterler doğrultusunda backend ve frontend uygulamaları geliştirildi.
+Backend and frontend applications have been developed in line with the requirements of the project.
 - Frontend http://web.ucazuga.com 
 - Backend  http://nur.ucazuga.com 
 
 ###  Backend
-Web indexleme projesinde,
-Backend tarafında; (http://localhost:3000)
-- Dil olarak **JavaScript** kullanıldı. (**NodeJS runtime**)
-- Uygulamanın ana fonksiyonu, endpointlere gelen isteklere cevap vermek. (Web API)
-- **Rest API** standartlarını takip ederek **Express** frameworkü ile geliştirildi. 
+
+Backend; (http://localhost:3000)
+- **JavaScript** is used as the language. (**NodeJS runtime**)
+- The main function of the application is to respond to requests to endpoints. (Web API)
+- It has been developed with the **Express** framework, following the **Rest API** standards.
 
 ### Frontend
-Frontend tarafında; (http://localhost:4200)
-- Dil olarak **TypeScript** kullanıldı. 
-Uygulamanın ana fonksiyonu, UI işlemleri ve backend servislerinden veri alıp/vermek. (endpointlere istek yaparak bir response elde eder) 
-- **Angular Framework’ü** ile geliştirildi.
+Frontend; (http://localhost:4200)
+- **TypeScript** is used as the language.
+The main function of the application is to import/export data from UI operations and backend services. (gets a response by requesting endpoints)
+- Developed with **Angular Framework**.
